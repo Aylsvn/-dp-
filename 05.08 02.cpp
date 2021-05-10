@@ -1,4 +1,4 @@
-### P1048 [NOIP2005 普及组] 采药
+/*### P1048 [NOIP2005 普及组] 采药
 https://www.luogu.com.cn/problem/P1048
 #### 思路：
 #### 这题就是很经典的01背包问题，所以很容易得出状态转移方程=
@@ -7,7 +7,7 @@ https://www.luogu.com.cn/problem/P1048
 #### 而不采摘(背包容量不够),则时间不变,当前采摘的药等于采摘的第i-1株药
 ### dp[i][j] = dp[i - 1][j] ;
 #### 代码如下：
-```
+```*/
 #include<iostream>
 #include<algorithm>
 #include<cstdio>
