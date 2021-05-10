@@ -1,4 +1,4 @@
-### P1216 [USACO1.5][IOI1994]数字三角形
+/*### P1216 [USACO1.5][IOI1994]数字三角形
 https://www.luogu.com.cn/problem/P1216
 #### 思路：
 #### 设dp[i][j]表示从(1,1)到(i,j)的最大和
@@ -6,7 +6,7 @@ https://www.luogu.com.cn/problem/P1216
 #### 因为(i,j)这个点只能从(i-1,j)和(i-1,j-1)出发到达
 #### 有一说一，数组还是得开大，不然会RE。。
 #### 代码如下：
-```
+```*/
 #include<iostream>
 #include<algorithm>
 #include<cstdio>
